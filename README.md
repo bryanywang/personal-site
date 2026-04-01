@@ -1,10 +1,10 @@
-# bryanwang.co
+# bryanwang.ooo
 
 Personal website for Bryan Wang — operator, investor, occasional poet, obsessed Beli power user.
 
 Built with plain HTML and CSS. No frameworks, no build step, no dependencies.
 
-**Live site:** [bryanwang.co](https://bryanwang.co)
+**Live site:** [bryanwang.co](https://bryanwang.ooo/)
 
 ---
 
