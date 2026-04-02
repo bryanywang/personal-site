@@ -79,15 +79,6 @@
     .f-social-beli img { width: 17px; height: 17px; object-fit: cover; display: block; border-radius: 3px; filter: grayscale(1) brightness(0); opacity: .55; transition: opacity .15s; }
     html[data-theme="dark"] .f-social-beli img { filter: grayscale(1) brightness(0) invert(1); }
     .f-social-beli:hover img { opacity: 1; }
-    @media(max-width: 768px) {
-      nav .nw { padding: 0 20px; }
-      .pw { padding-left: 20px; padding-right: 20px; padding-top: calc(var(--nav-h) + 40px); }
-      .site-footer .fw { padding-left: 20px; padding-right: 20px; }
-      .nav-links { gap: 16px; }
-      .nav-links a { font-size: 11px; letter-spacing: .04em; }
-      .nav-right { gap: 16px; }
-    }
-
 
     /* Desktop: fixed cols, smaller text, no-wrap to keep each row single line */
     .proj-table {
@@ -162,17 +153,24 @@
     }
 
     /* Mobile: stack into cards */
-    @media(max-width: 768px) {
-      .proj-table, .proj-table thead, .proj-table tbody,
-      .proj-table th, .proj-table td, .proj-table tr { display: block; }
-      .proj-table thead { display: none; }
-      .proj-table tbody tr { padding: 18px 0; border-bottom: 1px solid var(--rule); }
-      .proj-table td { padding: 0; white-space: normal; text-overflow: unset; overflow: visible; }
-      .col-role { display: none; }
-      .td-co-link { font-size: 15px; margin-bottom: 5px; white-space: normal; }
-      .td-focus-txt { margin-top: 3px; white-space: normal; }
-      .td-yr-txt { display: inline-block; margin-top: 7px; text-align: left; }
-    }
+ @media(max-width: 768px) {
+  nav .nw { padding: 0 20px; }
+  .pw { padding-left: 20px; padding-right: 20px; padding-top: calc(var(--nav-h) + 40px); }
+  .site-footer .fw { padding-left: 20px; padding-right: 20px; }
+  .nav-links { gap: 16px; }
+  .nav-links a { font-size: 11px; letter-spacing: .04em; }
+  .nav-right { gap: 16px; }
+
+  .proj-table, .proj-table thead, .proj-table tbody,
+  .proj-table th, .proj-table td, .proj-table tr { display: block; }
+  .proj-table thead { display: none; }
+  .proj-table tbody tr { padding: 18px 0; border-bottom: 1px solid var(--rule); }
+  .proj-table td { padding: 0; white-space: normal; text-overflow: unset; overflow: visible; }
+  .col-role { display: none; }
+  .td-co-link { font-size: 15px; margin-bottom: 5px; white-space: normal; }
+  .td-focus-txt { margin-top: 3px; white-space: normal; }
+  .td-yr-txt { display: inline-block; margin-top: 7px; text-align: left; }
+}
 
   </style>
 </head>
